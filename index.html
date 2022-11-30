@@ -9,14 +9,36 @@
   <div id="app">
     <header>
       <h1>Github Favorites</h1>
-      <div>
+      <div class="search">
         <label for="input-search">Usuário do Github</label>
         <input id="input-search"type="text" placeholder="Usuário do Github">
-        <button></button>
+        <button>&plus;</button>
       </div>
     </header>
     <table>
-
+      <thead>
+        <tr>
+          <th>Usuário</th>
+          <th>Repositórios</th>
+          <th>Seguidores</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="user">
+            <img src="" alt="">
+            <a href="">
+              <p></p>
+              <span></span>
+            </a>
+          </td>
+          <td class="repositories"></td>
+          <td class="followers"></td>
+          <td></td>
+          <button>&times;</button>
+        </tr>
+      </tbody>
     </table>
   </div>
 </body>
